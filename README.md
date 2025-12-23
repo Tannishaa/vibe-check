@@ -28,16 +28,17 @@ graph LR
 
 **Notifications:** AWS SNS (Simple Notification Service) for real-time alerts.
 
-**Infrastructure as Code:** Boto3 scripts to auto-deploy resources.
+**Infrastructure Automation:** Python (Boto3) scripts to provision and deploy cloud resources programmatically.
 
 ## Key Features
 **Serverless:** Runs entirely on the cloud with $0 idle cost.
 
-**Crisis Detection:** Instantly identifies "Negative" feedback (e.g., "Trash", "Hate") and routes it to support teams via SNS.
+**Cost-Optimized Engine:** Uses a custom rule-based filtering algorithm to classify sentiment, eliminating ML inference costs while maintaining sub-millisecond execution logic.
+
+**Crisis Detection:** Instantly identifies "Negative" feedback and routes it to support teams via SNS (<2 second notification window).
 
 **Public API:** Accessible via curl or any HTTP client from anywhere in the world.
 
-**Auto-Scaling:** Can handle 1 request or 1,000 requests per second automatically.
 
 ## Setup & Deployment
 **1. Clone the Repo**
@@ -86,4 +87,4 @@ Response:
 ```
 If the sentiment is NEGATIVE, an email alert is sent immediately.
 
-### Built by Tanisha.
+#### Built by Tanisha.
