@@ -1,4 +1,4 @@
-# 🎭 Vibe-Check: Serverless Sentiment Analysis API
+# 🎭 Vibe-Check: Serverless Customer Feedback API
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
 ![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20API%20Gateway-orange?style=for-the-badge&logo=amazon-aws)
